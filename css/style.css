@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 250px;
+}
+#email-input,
+#email-sug-wrapper {
+	width: 100%;
+}
+#email-sug-wrapper {
+	border: 1px solid #e3dede;
+	border-bottom: none;
+	
+	list-style: none;
+}
+#email-sug-wrapper > li {
+	border-bottom: 1px solid #e3dede;
+}
+#email-sug-wrapper > li:hover {
+	background-color: #cf4baa;
+	
+	cursor: pointer;
+}
+.now-select {
+	background-color: #6ec9f2;
+}
